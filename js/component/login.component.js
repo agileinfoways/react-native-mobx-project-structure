@@ -22,7 +22,6 @@ export default class LoginComponent extends Component {
     let res = await GM.getValueFromPref('user');
     if (res) {
       this.setState({ isLoggedInUser: true })
-      LoginStore.userData = res
     } else {
       this.setState({ isLoggedInUser: false })
     }
@@ -43,7 +42,6 @@ export default class LoginComponent extends Component {
       try {
         await GM.setValueInPref('user', JSON.stringify(success.data));
         await GM.setValueInPref('password', JSON.stringify(LoginStore.password));
-        LoginStore.userData = success.data
         this.setState({ isLoading: false })
       } catch (error) {
         GM.showLog("error callLoginApi==> " + JSON.stringify(error))
