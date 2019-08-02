@@ -39,13 +39,13 @@
 ```
 
 3. Execute following commands to install dependencies and devDependencies.
-  Using npm
-    - `npm install` 
-    - `npm install --save-dev`
+Using npm
+- `npm install` 
+- `npm install --save-dev`
 
-  Using yarn
-    - `yarn install` 
-    - `npm install --dev`
+Using yarn
+- `yarn install` 
+- `npm install --dev`
 
 4. Open babel.config.js inside your main project folder and check for following code:
 ```
