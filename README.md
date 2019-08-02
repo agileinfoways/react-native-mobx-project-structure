@@ -50,15 +50,15 @@ Using yarn
 4. Open babel.config.js inside your main project folder and check for following code:
 ```
 module.exports = {
-presets: ['module:metro-react-native-babel-preset'],
-"plugins": [
-[
-"@babel/plugin-proposal-decorators",
-{
-"legacy": true
-}
-]
-]
+  presets: ['module:metro-react-native-babel-preset'],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+      "legacy": true
+      }
+    ]
+  ]
 };
 ```
 
