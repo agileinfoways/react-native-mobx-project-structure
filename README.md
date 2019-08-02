@@ -18,34 +18,34 @@
 
 ```
 "dependencies": {
-"@react-native-community/netinfo": "^4.1.3",
-"mobx": "^5.9.4",
-"mobx-react": "^5.4.3",
-"react": "16.8.3",
-"react-native": "0.59.3",
-"react-native-gesture-handler": "^1.3.0",
-"react-navigation": "^3.11.1"
+  "@react-native-community/netinfo": "^4.1.3",
+  "mobx": "^5.9.4",
+  "mobx-react": "^5.4.3",
+  "react": "16.8.3",
+  "react-native": "0.59.3",
+  "react-native-gesture-handler": "^1.3.0",
+  "react-navigation": "^3.11.1"
 },
 "devDependencies": {
-"@babel/core": "^7.5.5",
-"@babel/plugin-proposal-decorators": "^7.4.4",
-"@babel/runtime": "^7.5.5",
-"babel-jest": "^24.7.1",
-"jest": "^24.7.1",
-"metro-react-native-babel-preset": "^0.53.1",
-"react-test-renderer": "16.8.3"
+  "@babel/core": "^7.5.5",
+  "@babel/plugin-proposal-decorators": "^7.4.4",
+  "@babel/runtime": "^7.5.5",
+  "babel-jest": "^24.7.1",
+  "jest": "^24.7.1",
+  "metro-react-native-babel-preset": "^0.53.1",
+  "react-test-renderer": "16.8.3"
 },
 
 ```
 
 3. Execute following commands to install dependencies and devDependencies.
-Using npm
-- `npm install` 
-- `npm install --save-dev`
+  Using npm
+    - `npm install` 
+    - `npm install --save-dev`
 
-Using yarn
-- `yarn install` 
-- `npm install --dev`
+  Using yarn
+    - `yarn install` 
+    - `npm install --dev`
 
 4. Open babel.config.js inside your main project folder and check for following code:
 ```
